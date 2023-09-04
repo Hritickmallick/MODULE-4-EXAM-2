@@ -1,0 +1,8 @@
+name: Movie Theme
+description: 'setting up sub theme and base theme is bootstrap 5'
+type: theme
+core_version_requirement: ^10
+base theme: bootstrap5
+
+libraries:
+  - movie_theme/global-styling

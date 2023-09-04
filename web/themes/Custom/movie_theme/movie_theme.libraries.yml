@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/global.css : {}
+
+movie-page-styling:
+  version: VERSION
+  css:
+    theme:
+      css/movie-list.css : {}
