@@ -1,6 +1,6 @@
 uuid: f01225ff-2f58-40d9-9e8b-2632a3ba4363
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -12,8 +12,8 @@ _core:
   default_config_hash: Fm7sDs2U1u99MaVOZEZqa-QOJrrUiQMWJb1jMozYO48
 id: movie_theme_main_navigation
 theme: movie_theme
-region: sidebar_first
-weight: -6
+region: header
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -24,4 +24,8 @@ settings:
   level: 1
   depth: 0
   expand_all_items: true
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /front
