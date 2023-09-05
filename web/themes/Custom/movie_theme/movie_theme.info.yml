@@ -6,3 +6,4 @@ base theme: bootstrap5
 
 libraries:
   - movie_theme/global-styling
+  - movie_theme/fontawesome

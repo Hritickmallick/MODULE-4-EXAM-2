@@ -53,7 +53,7 @@
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  padding-top: 50px;
+  padding: 50px 0px;
 }
 .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design {
   position: relative;
@@ -66,15 +66,15 @@
   position: absolute;
   content: "";
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.3;
   top: 0;
-  height: 100%;
+  height: 98%;
   width: 100%;
   z-index: 2;
 }
 .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design .views-field-title {
   padding: 25px 0px;
-  font-size: 1.25rem;
+  font-size: 1.875rem;
   position: relative;
   z-index: 5;
   font-weight: 500;
@@ -90,26 +90,35 @@
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 170px;
-  font-size: 1.875rem;
+  font-size: 2.5rem;
   position: relative;
   z-index: 5;
   font-weight: 900;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3 {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design .views-field-nothing {
+  display: none;
+}
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3 {
   width: 31.5%;
   min-height: 250px;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover::before {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover::before {
   position: absolute;
   content: "";
   background-color: #e50913;
   top: 0;
-  height: 100%;
+  height: 98%;
   width: 100%;
   z-index: 4;
   opacity: 0.7;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover::after {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover::after {
   position: absolute;
   content: "";
   background-color: #fff;
@@ -119,36 +128,46 @@
   width: 50px;
   z-index: 4;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover .views-field-title {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover .views-field-title {
   position: relative;
   z-index: 5;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover .views-field-field-release-date {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3:hover .views-field-field-release-date {
   visibility: visible;
   position: relative;
   z-index: 5;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3 .views-field-field-movie-banner .field-content img {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-1 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-2 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-3 .views-field-field-movie-banner .field-content img {
   height: 250px;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 {
   width: 48%;
   min-height: 250px;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5::before {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5::before {
   height: 98.45%;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover::before {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover::before {
   position: absolute;
   content: "";
   background-color: #e50913;
   top: 0;
-  height: 99%;
+  height: 98%;
   width: 100%;
   z-index: 4;
   opacity: 0.7;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover::after {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover::after {
   position: absolute;
   content: "";
   background-color: #fff;
@@ -158,27 +177,37 @@
   width: 50px;
   z-index: 4;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover .views-field-field-release-date {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover .views-field-field-release-date {
   visibility: visible;
   position: relative;
   z-index: 5;
   font-size: 2.5rem;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover .views-field-title {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5:hover .views-field-title {
   position: relative;
   z-index: 5;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4 .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 .views-field-field-release-date {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4 .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 .views-field-field-release-date {
   font-size: 2.5rem;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 .views-field-field-movie-banner .field-content img {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-4 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-5 .views-field-field-movie-banner .field-content img {
   height: 250px;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 {
   width: 23.5%;
   min-height: 250px;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover::before, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover::before {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover::before,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover::before {
   position: absolute;
   content: "";
   background-color: #e50913;
@@ -188,25 +217,50 @@
   z-index: 4;
   opacity: 0.7;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover::after, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover::after {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover::after,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover::after {
   position: absolute;
   content: "";
   background-color: #fff;
-  top: 85px;
+  top: 140px;
   right: 90px;
   height: 2px;
   width: 50px;
   z-index: 4;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover .views-field-field-release-date, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover .views-field-field-release-date {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover .views-field-field-release-date {
   visibility: visible;
   position: relative;
   z-index: 5;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover .views-field-title, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover .views-field-title {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8:hover .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9:hover .views-field-title {
   position: relative;
   z-index: 5;
 }
-.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8 .views-field-field-movie-banner .field-content img, .region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 .views-field-field-movie-banner .field-content img {
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8 .views-field-field-movie-banner .field-content img,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 .views-field-field-movie-banner .field-content img {
   height: 250px;
+}
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6 .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7 .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8 .views-field-field-release-date,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 .views-field-field-release-date {
+  padding-bottom: 130px;
+  font-size: 2.1875rem;
+}
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-6 .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-7 .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-8 .views-field-title,
+.region-content #block-movie-theme-content .views-element-container .view-id-movies .view-content .design-9 .views-field-title {
+  font-size: 1.5625rem;
 }/*# sourceMappingURL=movie-list.css.map */

@@ -12,4 +12,16 @@
      }
  }
 
+ /**
+  * implementing hook_preprocess_hook for attaching library
+  */
+
+  function movie_theme_preprocess_view(&$variables) {
+    
+    if($variables['view']->id() == 'movies') {
+        $variables['#attached']['library'][] = 'movie_theme/movie-page-styling';
+    }
+
+  }
+
 ?>
