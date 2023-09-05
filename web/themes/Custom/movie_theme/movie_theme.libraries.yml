@@ -8,9 +8,8 @@ movie-page-styling:
   version: VERSION
   css:
     theme:
-      css/movie-list.css : {}
-      css/popout.css : {}
-
+      css/movie.css : {}
+      
   js:
     js/index.js : {}
 
