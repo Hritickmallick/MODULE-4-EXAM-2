@@ -1,0 +1,25 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/global.css : {}
+
+movie-page-styling:
+  version: VERSION
+  css:
+    theme:
+      css/movie.css : {}
+      
+  js:
+    js/index.js : {}
+
+  dependencies:
+    - core/once
+    - core/jquery
+    - core/drupalSettings
+
+fontawesome:
+  version: VERSION
+  css:
+    theme:
+      //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css: {type: external}
